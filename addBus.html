@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Bus</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add Bus</h2>
+        <form method="post" action="AddBusServlet">
+            <label for="bus_number">Bus Number:</label>
+            <input type="text" id="bus_number" name="bus_number" required>
+            <label for="seats">Number of Seats:</label>
+            <input type="number" id="seats" name="seats" required>
+            <label for="stops">Stops (comma-separated):</label>
+            <input type="text" id="stops" name="stops" required>
+            <button type="submit">Add Bus</button>
+        </form>
+    </div>
+</body>
+</html>
